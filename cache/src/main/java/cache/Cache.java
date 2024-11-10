@@ -1,9 +1,9 @@
 package cache;
 
-import com.uditagarwal.cache.exceptions.NotFoundException;
-import com.uditagarwal.cache.exceptions.StorageFullException;
-import com.uditagarwal.cache.policies.EvictionPolicy;
-import com.uditagarwal.cache.storage.Storage;
+import cache.exceptions.NotFoundException;
+import cache.exceptions.StorageFullException;
+import cache.policies.EvictionPolicy;
+import cache.storage.Storage;
 
 public class Cache<Key, Value> {
     private final EvictionPolicy<Key> evictionPolicy;

@@ -1,7 +1,7 @@
 package cache.storage;
 
-import com.uditagarwal.cache.exceptions.NotFoundException;
-import com.uditagarwal.cache.exceptions.StorageFullException;
+import cache.exceptions.NotFoundException;
+import cache.exceptions.StorageFullException;
 
 import java.util.HashMap;
 import java.util.Map;
